@@ -45,6 +45,7 @@
 @media only screen and (max-width: 600px) {
     .coming-soon h2 {
         font-size: 36px;
+        font-weight: 200;
     }
     .coming-soon img {
         height: 300px;
@@ -52,5 +53,12 @@
     }
     .coming-soon h4 {
         font-size: 24px;
+    }
+}
+
+/* media queries */
+@media only screen and (max-width: 400px) {
+    .coming-soon h2 {
+        font-size: 32px;
     }
 }
