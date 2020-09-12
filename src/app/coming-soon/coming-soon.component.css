@@ -55,10 +55,3 @@
         font-size: 24px;
     }
 }
-
-/* media queries */
-@media only screen and (max-width: 400px) {
-    .coming-soon h2 {
-        font-size: 32px;
-    }
-}
