@@ -1,3 +1,4 @@
+/* coming soon styles */
 .coming-soon {
     margin-top: 10vh;
     width: 100%;
@@ -21,7 +22,18 @@
     font-size: 32px;
     margin: 0;
 }
+.instagram-link i {
+    color: #2D484F;
+    opacity: 0.6;
+    margin-top: 20px;
+    transition: opacity 0.1s;
+}
+.instagram-link i:hover {
+    opacity: 1;
+    transition: opacity 0.1s;
+}
 
+/* media queries */
 @media only screen and (max-width: 600px) {
     .coming-soon h2 {
         font-size: 36px;
