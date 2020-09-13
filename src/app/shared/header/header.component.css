@@ -1,0 +1,42 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    height: 6vh;
+}
+.header a {
+    text-decoration: none;
+    color: #051527;
+}
+.header-title {
+    font-weight: 200;
+    font-size: 28px;
+    opacity: 0.6;
+    transition: opacity 0.1s;
+}
+.header-title:hover {
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+.nav-list {
+    display: flex;
+    margin-right: 20px;
+}
+.nav-item {
+    list-style: none;
+    margin: 0 10px;
+}
+.nav-item a {
+    color: #051527;
+    opacity: 0.6;
+    font-weight: 300;
+    transition: opacity 0.1s;
+}
+.nav-item a:hover {
+    opacity: 1;
+    transition: opacity 0.1s;
+}
