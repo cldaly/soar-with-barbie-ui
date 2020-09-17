@@ -1,0 +1,39 @@
+.landing-page {
+    height: 100%;
+    background-color: #3d848f;
+}
+.title-logo {
+    margin-top: 6vh;
+    max-width: 800px;
+    width: 100%;
+    height: 800px;
+    background-image: url('../../../assets/logoandbrand/logo_title.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.title-section {
+    padding-top: 6vh;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: flex-start;
+}
+.landing-title {
+    letter-spacing: 0.02em;
+    font-weight: 100;
+    font-size: 72px;
+    margin-top: 24vh;
+    color: #0e1a20;
+}
+.landing-title span {
+    font-size: 60px;
+}
+.down-icon {
+    color: rgba(241, 217, 144, 0.6);
+}
+.down-2 {
+    transform: translateY(-24px);
+    color: rgba(241, 217, 144, 0.8);
+}

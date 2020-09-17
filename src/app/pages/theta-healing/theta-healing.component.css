@@ -1,0 +1,58 @@
+.theta-healing {
+    background-color: #e2f7f2;
+    height: 100vh;
+}
+.theta-content {
+    padding-top: 12vh;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: flex-start;
+}
+.theta-title {
+    text-align: left;
+    font-size: 1.6em;
+    margin: 0;
+    width: 100%;
+    padding: 16px 20px;
+    background-image: linear-gradient(90deg,#98c5ca 0%, #e2f7f2 90%);
+    border-radius: 24px 0 0 0;
+}
+.theta-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+img.theta-rocks-img {
+    height: 450px;
+    width: auto;
+    object-fit: cover;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 6px;
+}
+.theta-description {
+    padding: 20px 40px;
+    font-size: 1em;
+    line-height: 24px;
+    font-weight: 200;
+    width: 100%;
+    max-width: 800px;
+}
+.theta-description p {
+    margin: 10px 24px;
+}
+.theta-learn-more {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 200;
+    font-size: 1.2em;
+    width: 100%;
+    background-image: linear-gradient(90deg,#98c5ca 0%, #e2f7f2 100%);
+    border-radius: 0 0 0 24px;
+}
+.theta-link {
+    color: #006188;
+}

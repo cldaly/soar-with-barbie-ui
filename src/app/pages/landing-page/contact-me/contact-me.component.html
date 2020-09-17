@@ -1,0 +1,13 @@
+<div class="contact-me">
+    <div class="message-label">Send a message!</div>
+    <form class="message-form" (ngSubmit)="onSubmit()" [formGroup]="emailForm" autocomplete="off">
+
+        <input formControlName="name" type="text" placeholder="Name" autocomplete="no" required>
+
+        <input formControlName="email" type="email" placeholder="Email" autocomplete="no" required>
+
+        <textarea formControlName="message" id="msg" cols="30" rows="4" placeholder="Message..." maxlength="150" autocomplete="no" required></textarea>
+
+        <button class="send-btn" [disabled]='this.emailForm.invalid || this.loading'>Send message!</button>
+    </form>
+</div>
