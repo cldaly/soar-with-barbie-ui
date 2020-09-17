@@ -4,10 +4,10 @@
 }
 .title-logo {
     margin-top: 6vh;
-    height: 80vh;
-    max-width: 80vh;
+    max-width: 800px;
     width: 100%;
-    background-image: url('../../../assets/logoandbrand/Logo_with_wording.png');
+    height: 800px;
+    background-image: url('../../../assets/logoandbrand/logo_title.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
