@@ -1,19 +1,20 @@
 .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px 20px;
-    height: 6vh;
+    height: 5vh;
+    background-color: rgba(133, 185, 192, 0.6);
 }
 .header a {
     text-decoration: none;
-    color: #051527;
+    color: #000000;
 }
 .header-title {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 28px;
     opacity: 0.6;
     transition: opacity 0.1s;
@@ -31,7 +32,7 @@
     margin: 0 10px;
 }
 .nav-item a {
-    color: #051527;
+    color: #000000;
     opacity: 0.6;
     font-weight: 300;
     transition: opacity 0.1s;

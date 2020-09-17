@@ -6,6 +6,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+    background-color: #e2f7f2;
 }
 .message-label {
     font-weight: 100;

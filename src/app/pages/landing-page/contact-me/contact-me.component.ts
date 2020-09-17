@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { EmailService } from '../core/email.service';
+import { EmailService } from 'src/app/core/email.service';
 
 @Component({
   selector: 'app-contact-me',

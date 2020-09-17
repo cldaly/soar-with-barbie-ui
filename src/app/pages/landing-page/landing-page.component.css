@@ -1,9 +1,15 @@
 .landing-page {
     height: 100%;
+    background-color: #3d848f;
 }
 .title-logo {
-    height: 70vh;
     margin-top: 6vh;
+    height: 80vh;
+    max-width: 80vh;
+    width: 100%;
+    background-image: url('../../../assets/logoandbrand/Logo_with_wording.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .title-section {
     padding-top: 6vh;
@@ -13,8 +19,6 @@
     flex-direction: column;
     align-items: center;
     justify-self: flex-start;
-    /* background-image: url('../../../assets/images/landing-00.jpeg'); */
-    /* background-size: cover; */
 }
 .landing-title {
     letter-spacing: 0.02em;
@@ -25,4 +29,11 @@
 }
 .landing-title span {
     font-size: 60px;
+}
+.down-icon {
+    color: rgba(241, 217, 144, 0.6);
+}
+.down-2 {
+    transform: translateY(-24px);
+    color: rgba(241, 217, 144, 0.8);
 }
