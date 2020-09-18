@@ -6,7 +6,6 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    background-color: #e2f7f2;
 }
 .message-label {
     font-weight: 100;
@@ -45,4 +44,14 @@
     cursor: default;
     background-color: #eee;
     color: #777
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-me {
+        flex-direction: column;
+    }
+    .message-label {
+        width: 100%;
+        text-align: center;
+    }
 }

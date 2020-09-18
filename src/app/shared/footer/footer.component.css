@@ -1,4 +1,5 @@
 .footer {
+    position: relative;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -13,6 +14,7 @@
     font-size: 0.8em;
     padding-left: 24px;
     color: #092e33;
+    order: 1;
 }
 .clay {
     color: #092e33;
@@ -27,16 +29,58 @@
 .soar {
     width: 25%;
     text-align: center;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.1em;
     color: #092e33;
+    order: 2;
 }
 .copyright {
     letter-spacing: 0.03em;
     width: 25%;
-    color: #0e363b;
-    font-weight: 100;
+    color: #092e33;
+    font-weight: 200;
     font-size: 1.1em;
     text-align: right;
     padding-right: 24px;
+    order: 3;
+}
+
+@media (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .dev-notes {
+        width: 100%;
+        text-align: center;
+        font-size: 0.8em;
+        font-weight: 100;
+        padding: 0;
+        order: 3;
+        color: #000000;
+    }
+    .soar {
+        width: 100%;
+        text-align: center;
+        font-size: 0.8em;
+        font-weight: 100;
+        padding: 0;
+        order: 2;
+        color: #000000;
+    }
+    .copyright {
+        width: 100%;
+        text-align: center;
+        font-size: 0.8em;
+        font-weight: 100;
+        padding: 0;
+        order: 1;
+        color: #000000;
+    }
+    .clay {
+        color: #000000;
+        opacity: 1;
+        text-decoration: underline;
+    }
 }
