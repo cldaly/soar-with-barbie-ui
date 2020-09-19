@@ -1,10 +1,12 @@
+/* Bio  */
+
 .about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .about-bio {
-    margin-top: 40px;
+    margin: 40px 0;
 }
 .about-title {
     text-align: center;
@@ -42,4 +44,23 @@
 .bio-signature {
     width: 350px;
     height: auto;
+}
+
+/* Services */
+
+.about-services {
+    margin: 40px 0;
+    padding: 60px;
+    width: 100%;
+    min-height: 600px;
+    background-color: #fff0c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.services-title {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 200;
 }
