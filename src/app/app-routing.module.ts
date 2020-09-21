@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
+import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 import { ThetaHealingComponent } from './pages/theta-healing/theta-healing.component';
 
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
   { path: 'theta-healing', component: ThetaHealingComponent },
+  { path: 'testimonials', component: TestimonialsComponent },
   { path: '**', redirectTo: '/' }
 ];
 
