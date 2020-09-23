@@ -18,7 +18,7 @@ export class ContactMeComponent implements OnInit {
     this.emailForm = this.formBuilder.group({
       name: [{value: undefined, disabled: this.loading}, [Validators.required]],
       email: [{value: undefined, disabled: this.loading}, [Validators.required, Validators.email]],
-      message: [{value: undefined, disabled: this.loading}, [Validators.required, Validators.maxLength(150)]]
+      message: [{value: undefined, disabled: this.loading}, [Validators.required, Validators.maxLength(600)]]
     });
 
     this.submitted = false;

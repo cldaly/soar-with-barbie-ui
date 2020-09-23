@@ -1,40 +1,111 @@
 .contact-me {
     width: 100%;
     height: 100vh;
-    padding-top: 20vh;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Contact Info Section  */
+.contact-section {
+    margin: 40px 0;
+}
+.contact-title {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 200;
+}
+.contact-content {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
 }
+.contact-img {
+    width: 400px;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2), 3px 3px 6px rgba(0,0,0,0.1);
+}
+.contact-details {
+    width: 400px;
+    margin-left: 40px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2D484F;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    text-decoration: none;
+}
+.contact-link:hover {
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+.contact-link i {
+    width: 36px;
+    text-align: center;
+}
+.contact-link span {
+    width: 100px;
+    padding-left: 10px;
+}
+
+/* Message Section  */
+
 .message-label {
-    font-weight: 100;
-    font-size: 2em;
+    font-weight: 200;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .message-form {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    margin-top: 4px;
 }
-.message-form > * {
-    width: 320px;
+.form-group {
+    display: flex;
+}
+.input-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.message-input {
+    width: 250px;
+    height: 50%;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-bottom: 20px;
     padding: 6px;
     font-weight: 100;
     font-size: 1em;
+    margin: 2px;
 }
-.message-form > *:focus {
+.message-input:focus {
     outline: none;
 }
+textarea.message-input {
+    height: 80px;
+    width: 400px;
+}
 .send-btn {
+    width: 100%;
     font-weight: 100;
     color: #123d44;
     background-color: #ffecc4;
-    border: 1px solid #123d44;
+    border: 1px solid #ccc;
     border-radius: 5px;
+    padding: 6px;
+    margin-top: 2px;
+    font-weight: 100;
+    font-size: 1em;
     transition: 0.1s;
 }
 .send-btn:hover {
