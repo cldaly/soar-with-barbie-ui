@@ -1,6 +1,6 @@
 .contact-me {
     width: 100%;
-    padding: 40px 0 120px;
+    padding: 40px 0 16vh;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -10,7 +10,7 @@
 /* Contact Info Section  */
 
 .contact-section {
-    margin: 10px 50px;
+    margin: 10px 60px;
 }
 .contact-title {
     text-align: center;
@@ -18,8 +18,13 @@
     font-weight: 200;
 }
 .contact-content {
+    width: 420px;
     display: flex;
     flex-direction: column;
+}
+.contact-label {
+    font-size: 1.8em;
+    font-weight: 100;
 }
 .contact-img {
     width: 400px;
@@ -27,16 +32,24 @@
     border-radius: 3px;
     box-shadow: 1px 1px 4px rgba(0,0,0,0.2), 3px 3px 6px rgba(0,0,0,0.1);
 }
+.social-label {
+    margin-top: 24px;
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 1.1em;
+    border-top: 1px solid #ccc;
+}
 .contact-details {
-    width: 400px;
-    margin-top: 20px;
-    padding: 0 20px;
+    width: 420px;
+    margin-top: 24px;
+    padding-left: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .contact-link {
+    margin: 4px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,18 +63,18 @@
     transition: opacity 0.2s;
 }
 .contact-link i {
-    height: 36px;
+    width: 36px;
     text-align: center;
 }
 .contact-link span {
-    width: 100px;
-    padding-left: 10px;
+    width: 120px;
+    padding: 0 20px 0 10px;
 }
 
 /* Message Section  */
 
 .message-section {
-    margin: 0 50px;
+    margin: 0 60px;
 }
 .message-label {
     font-weight: 200;
@@ -83,20 +96,23 @@
     justify-content: space-between;
 }
 .message-input {
-    width: 400px;
+    width: 420px;
     height: 50%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 6px;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: transparent;
+    padding: 10px;
     font-weight: 100;
-    font-size: 1em;
-    margin: 2px;
+    font-size: 1.1em;
+    margin: 16px 0;
 }
 .message-input:focus {
     outline: none;
 }
 textarea.message-input {
-    height: 100px;
+    height: 200px;
 }
 .send-btn {
     width: 100%;
