@@ -12,6 +12,7 @@ import { ComingSoonComponent } from './pages/coming-soon/coming-soon.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { TestimonialsComponent } from './pages/testimonials/testimonials.component';
 import { AboutMeComponent } from './pages/landing-page/about-me/about-me.component';
+import { SchedulerComponent } from './components/scheduler/scheduler.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AboutMeComponent } from './pages/landing-page/about-me/about-me.compone
     FooterComponent,
     ContactMeComponent,
     TestimonialsComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    SchedulerComponent
   ],
   imports: [
     BrowserModule,
