@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: '', component: LandingPageComponent },
   { path: 'theta-healing', component: ThetaHealingComponent },
   { path: 'testimonials', component: TestimonialsComponent },
-  { path: 'book-appointment', component: SchedulerComponent },
+  { path: 'book-session', component: SchedulerComponent },
   { path: '**', redirectTo: '/' }
 ];
 
