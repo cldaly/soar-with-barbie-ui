@@ -30,7 +30,7 @@ export class TestimonialsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    window.scrollTo({top: 0, left: 0, behavior: 'auto'});
+    // window.scrollTo({top: 0, left: 0, behavior: 'auto'});
   }
 
 }
