@@ -1,3 +1,4 @@
+
 .scheduler {
    margin: 12vh auto 80px;
    display: flex;
@@ -9,10 +10,7 @@
 .scheduler-logo {
    position: absolute;
 }
-.scheduler iframe {
-   /* margin-top: 80px; */
-   min-height: 1320px;
-   height: fit-content;
+#scheduler-frame {
    overflow: visible;
 }
 .scheduler-title {
@@ -23,4 +21,12 @@
 }
 .scheduler .step-pane {
    border-radius: 6px;
+}
+
+.loading {
+   font-size: 1.5em;
+   letter-spacing: 0.1em;
+   color: #555555;
+   font-weight: 100;
+   margin-top: 120px;
 }
