@@ -1,44 +1,44 @@
 <h3 class="contact-title">Contact Me</h3>
 <div id="contact" class="contact-me">
-    
-    <div class="contact-section">
-        <div class="contact-content">
-            <div class="contact-label">Have any questions or comments, or do you need any additional information?<br>Feel free to leave a message, and I will get back to you as soon as possible!</div>
-            <div class="social-label">You can also find me on social media!</div>
-            <div class="contact-details">
-                <div class="social-group">
-                    <a class="contact-link" href="https://www.facebook.com/soarwithbarbie/" target="_blank">
-                        <i class="fab fa-2x fa-facebook-square"></i><span>Facebook</span>
-                    </a>
-                    <a class="contact-link" href="https://www.instagram.com/soarwithbarbie/" target="_blank">
-                        <i class="fab fa-2x fa-instagram"></i><span>Instagram</span>
-                    </a>
-                </div>
-                <div class="social-group">
-                    <a class="contact-link" href="https://www.youtube.com/channel/UCO50R6Llp75N91kXcXTphhA/" target="_blank">
-                        <i class="fab fa-2x fa-youtube"></i><span>YouTube</span>
-                    </a>
-                    <a class="contact-link" href="mailto:s.o.a.r.withbarbie@gmail.com" target="_blank">
-                        <i class="far fa-2x fa-envelope"></i><span>Email</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="message-section">
-        <form class="message-form" (ngSubmit)="onSubmit()" [formGroup]="emailForm" autocomplete="off">
-            <div class="form-group">
-                <div class="input-area">
-                    <input class="message-input" formControlName="name" type="text" placeholder="Name" autocomplete="no" required>
-                    <input class="message-input" formControlName="email" type="email" placeholder="Email" autocomplete="no" required>
-                </div>
-                <div class="input-area">
-                    <textarea class="message-input" formControlName="message" id="msg" cols="30" rows="4" placeholder="Message..." maxlength="600" autocomplete="no" required></textarea>
-                </div>
-            </div>
-            <button class="send-btn" [disabled]='this.emailForm.invalid || this.loading'>Send message!</button>
-        </form>
-    </div>
+
+	<div class="contact-section">
+		<div class="contact-content">
+			<div class="contact-label">Have any questions or comments, or do you need any additional information?<br>Feel free to leave a message, and I will get back to you as soon as possible!</div>
+			<div class="social-label">You can also find me on social media!</div>
+			<div class="contact-details">
+				<div class="social-group">
+					<a class="contact-link" href="https://www.facebook.com/soarwithbarbie/" target="_blank">
+						<i class="fab fa-2x fa-facebook-square"></i><span>Facebook</span>
+					</a>
+					<a class="contact-link" href="https://www.instagram.com/soarwithbarbie/" target="_blank">
+						<i class="fab fa-2x fa-instagram"></i><span>Instagram</span>
+					</a>
+				</div>
+				<div class="social-group">
+					<a class="contact-link" href="https://www.youtube.com/channel/UCO50R6Llp75N91kXcXTphhA?sub_confirmation=1" target="_blank">
+						<i class="fab fa-2x fa-youtube"></i><span>YouTube</span>
+					</a>
+					<a class="contact-link" href="mailto:s.o.a.r.withbarbie@gmail.com" target="_blank">
+						<i class="far fa-2x fa-envelope"></i><span>Email</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="message-section">
+		<form class="message-form" (ngSubmit)="onSubmit()" [formGroup]="emailForm" autocomplete="off">
+			<div class="form-group">
+				<div class="input-area">
+					<input class="message-input" formControlName="name" type="text" placeholder="Name" autocomplete="no" required>
+					<input class="message-input" formControlName="email" type="email" placeholder="Email" autocomplete="no" required>
+				</div>
+				<div class="input-area">
+					<textarea class="message-input" formControlName="message" id="msg" cols="30" rows="4" placeholder="Message..." maxlength="600" autocomplete="no" required></textarea>
+				</div>
+			</div>
+			<button class="send-btn" [disabled]='this.emailForm.invalid || this.loading'>Send message!</button>
+		</form>
+	</div>
 
 </div>

@@ -1,24 +1,25 @@
 <div class="header">
-    <div class="header-title"><a [routerLink]="['/']">Soar with Barbie</a></div>
-    <div class="mobile-title" (click)='handleSelection()'>
-        <a [routerLink]="['/']">
-            <img src="../../../assets/logoandbrand/logo_title-xs.png"><span>S.O.A.R.</span>
-        </a>
-    </div>
-    <nav class="header-nav">
-        <div class="nav-menu-btn" [ngClass]="{'close-menu': menuIsOpen}" (click)='toggleMenu()'>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <ul class="nav-list" [ngClass]="{'show-menu': menuIsOpen}">
-            <!-- <li class="nav-item" (click)='handleSelection()'><a href="#about">About Me</a></li> -->
-            <!-- <li class="nav-item" (click)='handleSelection()'><a href="#services">Services</a></li> -->
-            <!-- <li class="nav-item" (click)='handleSelection()'><a href="#contact">Contact Me</a></li> -->
-            <li class="nav-item" (click)='handleSelection()'><a [routerLink]="['/testimonials']">Testimonials</a></li>
-            <li class="nav-item" (click)='handleSelection()'><a [routerLink]="['/theta-healing']">ThetaHealing&#174;</a></li>
-            <li class="nav-item" (click)='handleSelection()'><a [routerLink]="['/freebies']">Freebies</a></li>
-            <li class="nav-item" (click)='handleSelection()'><a [routerLink]="['/book-session']">Book a Session</a></li>
-        </ul>
-    </nav>
+	<div class="header-title"><a [routerLink]="['/']">Soar with Barbie</a></div>
+	<div class="mobile-title" (click)='handleSelection()'>
+		<a [routerLink]="['/']">
+			<img src="../../../assets/logoandbrand/logo_title-xs.png"><span>S.O.A.R.</span>
+		</a>
+	</div>
+	<nav class="header-nav">
+		<div class="nav-menu-btn" [ngClass]="{'close-menu': menuIsOpen}" (click)='toggleMenu()'>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul class="nav-list" [ngClass]="{'show-menu': menuIsOpen}">
+			<!-- <li class="nav-item" (click)='handleSelection()'><a href="#about">About Me</a></li> -->
+			<!-- <li class="nav-item" (click)='handleSelection()'><a href="#services">Services</a></li> -->
+			<!-- <li class="nav-item" (click)='handleSelection()'><a href="#contact">Contact Me</a></li> -->
+			<li class="nav-item" (click)='handleSelection()'><a [routerLink]="['/testimonials']">Testimonials</a></li>
+			<li class="nav-item" (click)='handleSelection()'><a [routerLink]="['/theta-healing']">ThetaHealing&#174;</a>
+			</li>
+			<li class="nav-item" (click)='handleSelection()'><a [routerLink]="['/freebies']">Freebies</a></li>
+			<li class="nav-item" (click)='handleSelection()'><a [routerLink]="['/book-session']">Book a Session</a></li>
+		</ul>
+	</nav>
 </div>

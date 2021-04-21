@@ -15,24 +15,24 @@ import { AboutMeComponent } from './pages/landing-page/about-me/about-me.compone
 import { SchedulerComponent } from './components/scheduler/scheduler.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ComingSoonComponent,
-    LandingPageComponent,
-    HeaderComponent,
-    FooterComponent,
-    ContactMeComponent,
-    TestimonialsComponent,
-    AboutMeComponent,
-    SchedulerComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    ReactiveFormsModule,
-    HttpClientModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		ComingSoonComponent,
+		LandingPageComponent,
+		HeaderComponent,
+		FooterComponent,
+		ContactMeComponent,
+		TestimonialsComponent,
+		AboutMeComponent,
+		SchedulerComponent
+	],
+	imports: [
+		BrowserModule,
+		AppRoutingModule,
+		ReactiveFormsModule,
+		HttpClientModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }

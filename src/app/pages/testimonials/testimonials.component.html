@@ -1,8 +1,8 @@
 <div class="testimonials">
-    <h3 class="testimonials-title">Testimonials</h3>
-    <div class="testimonial" *ngFor="let testimonial of testimonials; let i = index">
-        <div class="testimonial-text" [innerHtml]='testimonial.text'></div>
-        <div class="testimonial-by">- {{ testimonial.by }}</div>
-        <hr *ngIf="i !== testimonials.length - 1">
-    </div>
+	<h3 class="testimonials-title">Testimonials</h3>
+	<div class="testimonial" *ngFor="let testimonial of testimonials; let i = index">
+		<div class="testimonial-text" [innerHtml]='testimonial.text'></div>
+		<div class="testimonial-by">- {{ testimonial.by }}</div>
+		<hr *ngIf="i !== testimonials.length - 1">
+	</div>
 </div>
