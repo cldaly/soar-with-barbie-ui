@@ -11,7 +11,6 @@ export class SchedulerComponent implements OnInit, OnDestroy {
 
 	constructor() {
 		this.loading = true;
-		console.log("Constructed");
 	}
 
 	ngOnInit(): void {
