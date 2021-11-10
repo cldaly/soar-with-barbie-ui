@@ -36,3 +36,11 @@
     width: 90%;
     background-image: linear-gradient(to right, rgba(226, 247, 242, 0), rgb(205, 235, 228), rgba(226, 247, 242, 0));
 }
+@media only screen and (max-width: 1000px) {
+    .testimonials-page {
+        margin: 0 20px;
+    }
+    .testimonials {
+        padding: 12px 20px 46px;
+    }
+}
