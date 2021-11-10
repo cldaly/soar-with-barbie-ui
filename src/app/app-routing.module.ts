@@ -6,15 +6,19 @@ import { TestimonialsComponent } from './pages/testimonials/testimonials.compone
 import { ThetaHealingComponent } from './pages/theta-healing/theta-healing.component';
 
 const routes: Routes = [
-  { path: '', component: LandingPageComponent },
-  { path: 'theta-healing', component: ThetaHealingComponent },
-  { path: 'testimonials', component: TestimonialsComponent },
-  { path: 'book-session', component: SchedulerComponent },
-  { path: '**', redirectTo: '/' }
+	{ path: '', component: LandingPageComponent },
+	{ path: 'theta-healing', component: ThetaHealingComponent },
+	{ path: 'testimonials', component: TestimonialsComponent },
+	{ path: 'book-session', component: SchedulerComponent },
+	{ path: '**', redirectTo: '/' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+	imports: [
+		RouterModule.forRoot(routes, {
+			scrollPositionRestoration: 'top'
+		})
+	],
+	exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -1,26 +1,25 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+	selector: 'app-header',
+	templateUrl: './header.component.html',
+	styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+	menuIsOpen: boolean;
 
-  menuIsOpen:boolean;
+	constructor() { }
 
-  constructor() { }
+	ngOnInit(): void {
+		this.menuIsOpen = false;
+	}
 
-  ngOnInit():void {
-    this.menuIsOpen = false;
-  }
-
-  toggleMenu(){
-    this.menuIsOpen = !this.menuIsOpen;
-  }
-  handleSelection() {
-    if (this.menuIsOpen) {
-      this.menuIsOpen = false;
-    }
-  }
+	public toggleMenu() {
+		this.menuIsOpen = !this.menuIsOpen;
+	}
+	public handleSelection() {
+		if (this.menuIsOpen) {
+			this.menuIsOpen = false;
+		}
+	}
 }

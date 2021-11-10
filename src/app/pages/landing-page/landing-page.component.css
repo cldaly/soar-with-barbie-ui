@@ -8,17 +8,49 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-self: flex-start;
     background: radial-gradient(circle, #337c88 0%, #408f9c 60%, #3b7983 100%);
 }
 .title-logo {
     margin-top: 6vh;
     width: 100%;
-    max-width: 800px;
-    height: 800px;
+    max-width: 700px;
+    height: 700px;
     background-image: url('../../../assets/logoandbrand/logo_title-a.png');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
+}
+.title-additional-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.book-now-action {
+    margin-bottom: 2em;
+}
+.book-now-action a {
+    display: block;
+    color: #ffffff;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+    margin: 0 12px;
+    transition: opacity 0.1s;
+    text-decoration: none;
+}
+.book-now-action a:hover {
+    opacity: 1;
+    text-decoration: underline;
+    transition: opacity 0.1s;
+}
+.scroll-notice {
+    color: #ffffff;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    font-family: 'League Script', cursive;
 }
 .mobile-title-text {
     text-align: center;
@@ -26,16 +58,31 @@
     font-weight: 100;
     display: none;
 }
-.down-icon {
-    color: rgba(241, 217, 144, 0.6);
+@media only screen and (max-width: 1000px) {
+    .title-additional-info {
+        margin-bottom: 8vh;
+    }
+    .book-now-action a {
+        font-size: 2rem;
+        letter-spacing: 0em;
+        font-weight: 200;
+        margin: 0;
+        padding: 0 12px;
+        text-decoration: underline;
+    }
 }
-.down-2 {
-    transform: translateY(-24px);
-    color: rgba(241, 217, 144, 0.8);
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .title-logo {
         margin-top: 12vh;
+    }
+    .book-now-action {
+        margin-bottom: 20px;
+    }
+    .book-now-action a {
+        font-size: 1.5rem;
+        letter-spacing: 0em;
+    }
+    .scroll-notice {
+        font-size: 1rem;
     }
 }

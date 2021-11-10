@@ -9,9 +9,9 @@
     margin: 10px 0;
 }
 .dev-notes {
-    width: 25%;
+    width: 33%;
     font-weight: 200;
-    font-size: 0.8em;
+    font-size: 1em;
     padding-left: 24px;
     color: #092e33;
     order: 1;
@@ -45,7 +45,7 @@
     order: 3;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .footer {
         flex-direction: column;
         align-items: center;
@@ -54,7 +54,7 @@
     .dev-notes {
         width: 100%;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 1em;
         font-weight: 100;
         padding: 0;
         order: 3;
@@ -63,7 +63,7 @@
     .soar {
         width: 100%;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 1em;
         font-weight: 100;
         padding: 0;
         order: 2;
@@ -72,7 +72,7 @@
     .copyright {
         width: 100%;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 1em;
         font-weight: 100;
         padding: 0;
         order: 1;
